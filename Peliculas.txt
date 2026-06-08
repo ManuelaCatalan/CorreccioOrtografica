@@ -1,0 +1,4 @@
+# Fichero de texto con lista de películas.
+# No debe activar la ejecución del flujo de corrección ortográfica
+Película 1
+Película 2
