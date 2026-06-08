@@ -5,6 +5,8 @@ on: # Events que disparen l'automatització
     types: ['opened', 'edited', 'reopened', 'synchronize', 'ready_for_review']
     branches:
       - 'main' # Quan s'obri un pull request a la branca 'main'
+  # perquè es puga executar manualment    
+  workflow_dispatch: 
 
 jobs: # Llista de tasques a executar
   changed-files: # Nom de la tasca
